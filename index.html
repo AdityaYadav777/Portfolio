@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 2, 22);
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(4, 4, 68);
+        }
+
+        nav ul {
+            display: flex;
+
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav ul li a:hover {
+            color: rgb(168, 168, 216);
+
+        }
+
+        .left {
+            font-size: 2.5rem;
+        }
+
+        .firstSection {
+
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .firstSection>div {
+
+            width: 30%;
+        }
+
+        .leftSection {
+            margin: 150px 0;
+            width: 34px;
+            font-size: 1.6rem;
+        }
+
+        .leftSection .btn {
+            padding: 10px;
+            background-color: #1e2167;
+            color: #fff;
+            border: 1px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 12px;
+
+        }
+
+        .rightSection img {
+
+            width: 80%;
+            margin: 50px 0;
+            background-color: rgb(3, 6, 49);
+            border-radius: 120px;
+        }
+
+        .purple {
+            color: rgb(132, 0, 255);
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .vertical {
+            height: 90px;
+            margin: 0 100px;
+            width: 1px;
+            background-color: #fff;
+        }
+
+        .secondSection .box {
+            background-color: #fff;
+            width: 80vw;
+            height: 1px;
+            display: flex;
+            margin: 56px 0;
+
+        }
+
+        .vertical-title {
+
+            position: relative;
+            top: 50px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+
+            position: relative;
+            top: 50px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -40px;
+            left: -19px;
+        }
+
+        footer {
+            background-color: rgb(1, 1, 12);
+            height: 230px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+
+
+        }
+
+        .footer ul {
+            list-style: none;
+            text-decoration: none;
+            color: #fff;
+
+
+        }
+
+        .footer ul li a {
+            text-decoration: none;
+            color: #fff;
+            text-decoration-skip: 0;
+            list-style: none;
+        }
+
+        .footer-text-center {
+            text-align: center;
+            color: gray;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Aditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="#">About</a></li>
+
+                    <li><a href="#"> Projects</a></li>
+                    <li><a href="#"> Contact me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii My Name is<span class="purple"> Aditya Yadav</span>
+                <div> and I am Passionate in </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download CV</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="mylogo.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="Android.png" alt="">
+                    <div class="vertical-title">Android App Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+                        velit distinctio libero eveniet provident, reiciendis optio pariatur ratione aut veniam,
+                        eligendi fuga nulla earum perferendis.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Android.png" alt="">
+                    <div class="vertical-title">Android App Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+                        velit distinctio libero eveniet provident, reiciendis optio pariatur ratione aut veniam,
+                        eligendi fuga nulla earum perferendis.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Android.png" alt="">
+                    <div class="vertical-title">Android App Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+                        velit distinctio libero eveniet provident, reiciendis optio pariatur ratione aut veniam,
+                        eligendi fuga nulla earum perferendis.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Android.png" alt="">
+                    <div class="vertical-title">Android App Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+                        velit distinctio libero eveniet provident, reiciendis optio pariatur ratione aut veniam,
+                        eligendi fuga nulla earum perferendis.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Android.png" alt="">
+                    <div class="vertical-title">Android App Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+                        velit distinctio libero eveniet provident, reiciendis optio pariatur ratione aut veniam,
+                        eligendi fuga nulla earum perferendis.</div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="footer-first">
+                <h3>Aditya's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-text-center">
+            Copyright &#169; adityaportfolio.com | All rights reseved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Graphics Desiger', 'Web Developer', 'Android App Developer'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
